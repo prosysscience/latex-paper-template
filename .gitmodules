@@ -1,6 +1,9 @@
 [submodule "include/bibliography"]
 	path = include/bibliography
-	url = ../bibliography
+	url = git@github.com:prosysscience/bibliography.git
+[submodule "include/llncs"]
+	path = include/llncs
+	url = git@github.com:prosysscience/llncs.git
 [submodule "include/comments"]
 	path = include/comments
-	url = ../latex-style-comments
+	url = git@github.com:krr-up/latex-style-comments.git
