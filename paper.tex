@@ -1,15 +1,15 @@
-\documentclass[a4paper]{article}
+\documentclass[a4paper]{article} %%% uncomment for LLNCS
 % \documentclass[runningheads]{include/llncs/llncs} %%% LLNCS
 
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{microtype}
-\usepackage{biblatex}
+\usepackage{biblatex} %%% uncomment for LLNCS
 \usepackage{url}\urlstyle{tt}
 \usepackage{comments}
 
-\bibliography{krr,procs}
+\bibliography{include/bibliography/krr,include/bibliography/procs} %%% uncomment for LLNCS
 
 \begin{document}
 
@@ -20,7 +20,7 @@
   University of Klagenfurt, Austria
 %   Graz University of Technology, Austria
 %   University of Potsdam, Germany
-}
+} %%% uncomment for LLNCS
 
 % \author{Author1\inst{1} \and Author2\inst{2,3}} %%% LLNCS
 
@@ -39,6 +39,7 @@
 \input{discussion}
 
 % \bibliographystyle{include/llncs/splncs04} %%% LLNCS
-\printbibliography{}
+% \bibliography{include/bibliography/krr,include/bibliography/procs} %%% LLNCS
+\printbibliography{} %%% uncomment for LLNCS
 
 \end{document}
